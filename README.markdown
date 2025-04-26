@@ -1,4 +1,4 @@
-# BubuNet: A Dual-Head Segmentation Model for Lane and Drivable Area Segmentation
+# BuduNet: A Dual-Head Segmentation Model for Lane and Drivable Area Segmentation
 
 ## Demo
 Below is a demonstration of BubuNet performing real-time drivable area and lane segmentation:
@@ -6,13 +6,14 @@ Below is a demonstration of BubuNet performing real-time drivable area and lane 
 ![BubuNet Demo](demo.gif)
 
 ### Sample Results
-| Drivable Area Segmentation | Lane Segmentation |
+| Index    | Result |
 |----------------------------|-------------------|
-| ![Drivable Area](output_images/drivable_sample1.jpg) | ![Lane](output_images/lane_sample1.jpg) |
-| ![Drivable Area](output_images/drivable_sample2.jpg) | ![Lane](output_images/lane_sample2.jpg) |
+| Sample 1 | ![Lane](output_images/0ace96c3-48481887_overlay.png) |
+| Sample 2 | ![Lane](output_images/0a98248b-de4df1d4_overlay.png) |
+
 
 ## Overview
-BubuNet is a novel segmentation model inspired by YOLOP and TwinLiteNet, designed for autonomous driving tasks. It leverages a ResNet-50 backbone with a single decoder that simultaneously performs **drivable area segmentation** and **lane segmentation**. The model is trained on the [BDD100K dataset](https://www.bdd100k.com/) with a batch size of 10.
+BuduNet is a novel segmentation model inspired by YOLOP and TwinLiteNet, designed for autonomous driving tasks. It leverages a ResNet-50 backbone with a single decoder that simultaneously performs **drivable area segmentation** and **lane segmentation**. The model is trained on the [BDD100K dataset](https://www.bdd100k.com/) with a batch size of 10.
 
 ## Features
 - **Dual-Head Architecture**: One head for drivable area segmentation and another for lane segmentation.
@@ -26,10 +27,10 @@ BubuNet is a novel segmentation model inspired by YOLOP and TwinLiteNet, designe
 ## Architecture Diagram
 Below is the architecture diagram of BubuNet:
 
-![BubuNet Architecture](architecture_diagram.png)
+![BuduNet Architecture](architecture_diagram.png)
 
 ## Requirements
-To run BubuNet, install the following dependencies:
+To run BuduNet, install the following dependencies:
 ```bash
 pip install torch torchvision opencv-python pillow
 ```
@@ -42,7 +43,7 @@ BubuNet/
 ├── output_images/          # Folder for output images after inference
 ├── output_videos/          # Folder for output videos after inference
 ├── model/
-│   └── bubu.py            # Model definition
+│   └── budu.py            # Model definition
 ├── train.py               # Training script
 ├── infer_images.py        # Inference script for images
 ├── infer_videos.py        # Inference script for videos
@@ -85,14 +86,14 @@ python infer_videos.py
 3. Results will be saved in the `output_videos/` folder.
 
 ### 4. Model Modifications
-To modify the BubuNet model:
+To modify the BuduNet model:
 1. Navigate to the `model/` directory.
 2. Edit `bubu.py` to make changes to the model architecture or parameters.
 
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Abdullah-Bin-Naeem/BubuNet.git
+git clone https://github.com/Abdullah-Bin-Naeem/BuduNet.git
 cd BubuNet
 ```
 2. Install the required dependencies:
