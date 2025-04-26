@@ -5,7 +5,7 @@ BubuNet is a novel segmentation model inspired by YOLOP and TwinLiteNet, designe
 
 ## Features
 - **Dual-Head Architecture**: One head for drivable area segmentation and another for lane segmentation.
-- **Backbone**: Pretrained ResNet-50 encoder for robust feature extraction.
+- **Backbone**: ResNet-50 encoder for robust feature extraction.
 - **Decoder**: Lightweight decoder with upsampling to match input resolution (360x640).
 - **Tasks**:
   - Drivable area segmentation (2 classes)
