@@ -1,7 +1,7 @@
 # BuduNet: A Dual-Head Segmentation Model for Lane and Drivable Area Segmentation
 
 ## Demo
-Below is a demonstration of BubuNet performing real-time drivable area and lane segmentation:
+Below is a demonstration of BubuNet performing on unseen scenerio for drivable area and lane segmentation:
 
 ![BubuNet Demo](demo.gif)
 
