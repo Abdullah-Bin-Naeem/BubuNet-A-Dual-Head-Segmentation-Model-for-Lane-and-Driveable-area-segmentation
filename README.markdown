@@ -1,4 +1,4 @@
-# BubuNet: A Dual-Head Segmentation Model for Autonomous Driving
+# BubuNet: A Dual-Head Segmentation Model for Lane and Driveable area Segmentation
 
 ## Overview
 BubuNet is a novel segmentation model inspired by YOLOP and TwinLiteNet, designed for autonomous driving tasks. It leverages a ResNet-50 backbone with a single decoder that simultaneously performs **drivable area segmentation** and **lane segmentation**. The model is trained on the [BDD100K dataset](https://www.bdd100k.com/) with a batch size of 10.
@@ -75,7 +75,7 @@ To modify the BubuNet model:
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/BubuNet.git
+git clone https://github.com/Abdullah-Bin-Naeem/BubuNet.git
 cd BubuNet
 ```
 2. Install the required dependencies:
