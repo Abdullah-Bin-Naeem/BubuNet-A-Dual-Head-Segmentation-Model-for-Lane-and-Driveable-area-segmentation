@@ -1,9 +1,9 @@
 # BuduNet: A Dual-Head Segmentation Model for Lane and Drivable Area Segmentation
 
 ## Demo
-Below is a demonstration of BubuNet performing on unseen scenerio for drivable area and lane segmentation:
+Below is a demonstration of BuduNet performing on unseen scenerio for drivable area and lane segmentation:
 
-![BubuNet Demo](demo.gif)
+![BuduNet Demo](demo.gif)
 
 ### Sample Results
 | Index    | Result |
