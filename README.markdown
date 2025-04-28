@@ -88,7 +88,7 @@ python infer_videos.py
 ### 4. Model Modifications
 To modify the BuduNet model:
 1. Navigate to the `model/` directory.
-2. Edit `bubu.py` to make changes to the model architecture or parameters.
+2. Edit `budu.py` to make changes to the model architecture or parameters.
 
 ## Installation
 1. Clone the repository:
